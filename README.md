@@ -61,8 +61,9 @@ the ECUs are connected to a CANoe panel through **system variables**. The panel 
 - a **meter/gauge** that displays the vehicle speed
 - an **LED indicator** that turns on when the vehicle speed exceeds **40 km/h**
 ### CANoe Simulation Setup
+### CANoe Simulation Setup
 <p align="center">
-  <img src="[https://drive.google.com/file/d/1AO_bxw-x2sKZ4sw82MX4YAKEA01aVMps/view?usp=drive_link](https://drive.google.com/uc?export=view&id=1AO_bxw-x2sKZ4sw82MX4YAKEA01aVMps)" alt="CANoe Simulation Setup" width="900"/>
+  <img src="https://drive.google.com/uc?export=view&id=1AO_bxw-x2sKZ4sw82MX4YAKEA01aVMps" alt="CANoe Simulation Setup" width="900"/>
 </p>
 <p align="center"><em>Figure 3: CANoe simulation setup showing the three virtual ECUs connected to the CAN network.</em></p>
 
