@@ -181,3 +181,9 @@ A warning behavior is also implemented in this project. When the vehicle speed e
 3. The speed value is sent to the **C++ participant** through the socket interface.
 4. The C++ participant processes the data and exchanges the corresponding messages with **CANoe** through **SIL Kit**.
 5. If the speed becomes greater than **40**, a warning is triggered in **CANoe**.
+
+### CARLA Demonstration
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1N8cOurrBuQhf-aCUyirvi_1OPMRHDzYD" alt="CARLA Demo" width="850"/>
+</p>
+<p align="center"><em>Figure 8: CARLA runtime demo showing the vehicle behavior and its connection to the C++ participant.</em></p>
