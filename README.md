@@ -77,7 +77,7 @@ The workflow is as follows:
 7. When the speed becomes greater than **40**, the **LED indicator** on the panel is activated.
 ### CANoe Panel
 <p align="center">
-  <img src="data/Screenshot 2026-03-28 115036.png" alt="CANoe Panel" width="700"/>
+  <img src="https://drive.google.com/uc?export=view&id=1aV1nBn6kvP29vpH7-lFECfm6Kw_cJIuq" alt="CANoe Panel" width="700"/>
 </p>
 <p align="center"><em>Figure 2: CANoe panel with throttle control, speed meter, and LED indicator.</em></p>
 
