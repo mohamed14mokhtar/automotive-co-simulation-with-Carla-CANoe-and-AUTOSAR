@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=19.4.10.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="Panel2">
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X10515e3be6338e4df8e90e1ea8d250e92636" ControlName="LED Control 1">
+      <Property Name="Name">X10515e3be6338e4df8e90e1ea8d250e92636</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">656, 122</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">2</Property>
+      <Property Name="TabStopActive">False</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;Color&gt;255, 152, 152, 152&lt;/Color&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;&lt;Color&gt;Red&lt;/Color&gt;</Property>
+      <Property Name="SymbolConfiguration">8;2;database;;Waning_message;warning_Signal;1;CAN;;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xc5e0972de730be4391ea540e0975d30f10c4" ControlName="Static Text 3">
+      <Property Name="Name">Xc5e0972de730be4391ea540e0975d30f10c4</Property>
+      <Property Name="Size">132, 25</Property>
+      <Property Name="Location">66, 206</Property>
+      <Property Name="Font">Microsoft Sans Serif, 15pt</Property>
+      <Property Name="Text">Analog gauge</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X7ef1e44ee5d1ae4b03e9c13e6a4d0e825255" ControlName="Static Text 2">
+      <Property Name="Name">X7ef1e44ee5d1ae4b03e9c13e6a4d0e825255</Property>
+      <Property Name="Size">60, 25</Property>
+      <Property Name="Location">473, 206</Property>
+      <Property Name="Font">Microsoft Sans Serif, 15pt</Property>
+      <Property Name="Text">Meter</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X16e6261de540fe46abeab33e2fa2ad9f6b25" ControlName="Static Text 1">
+      <Property Name="Name">X16e6261de540fe46abeab33e2fa2ad9f6b25</Property>
+      <Property Name="Size">76, 25</Property>
+      <Property Name="Location">284, 206</Property>
+      <Property Name="Font">Microsoft Sans Serif, 15pt</Property>
+      <Property Name="Text">Throttle</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X970768b0e393ee4a47eb7cbefa981a34381d" ControlName="Analog Gauge 1">
+      <Property Name="Name">X970768b0e393ee4a47eb7cbefa981a34381d</Property>
+      <Property Name="Size">225, 180</Property>
+      <Property Name="Location">5, 11</Property>
+      <Property Name="ScaleMin">0</Property>
+      <Property Name="ScaleMax">255</Property>
+      <Property Name="LowerRangeLimit">0</Property>
+      <Property Name="UpperRangeLimit">255</Property>
+      <Property Name="BorderStyle">FixedSingle</Property>
+      <Property Name="BackgroundColor">White</Property>
+      <Property Name="ArrowColor">255, 79, 129, 189</Property>
+      <Property Name="CenterColor">255, 192, 80, 77</Property>
+      <Property Name="LegendText"></Property>
+      <Property Name="LegendTextColor">255, 75, 172, 198</Property>
+      <Property Name="LegendTextFont">Microsoft Sans Serif, 8.25pt</Property>
+      <Property Name="LegendColor">255, 238, 141, 61</Property>
+      <Property Name="MainTicksNumber">5</Property>
+      <Property Name="TicksColor">255, 180, 152, 214</Property>
+      <Property Name="CurrentPosition">0</Property>
+      <Property Name="IsFrame">False</Property>
+      <Property Name="IsMargin">False</Property>
+      <Property Name="ScaleMargin">0</Property>
+      <Property Name="SymbolConfiguration">8;2;database;ECU_SpeedDisplay;speed_message;speed_signal;1;CAN;;-1;;;Value;;;0</Property>
+      <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE3LjMuOTEuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+        <Argument>0</Argument>
+        <Argument>255</Argument>
+        <Argument>0</Argument>
+        <Argument>0</Argument>
+        <Argument>255</Argument>
+      </Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xf6b650dde9b38e4d5ce9462e963d37ec911a" ControlName="Meter 1">
+      <Property Name="Name">Xf6b650dde9b38e4d5ce9462e963d37ec911a</Property>
+      <Property Name="Size">225, 180</Property>
+      <Property Name="Location">387, 11</Property>
+      <Property Name="SymbolConfiguration">8;2;database;ECU_SpeedDisplay;speed_message;speed_signal;1;CAN;;-1;;;Value;;;0</Property>
+      <Property Name="NeedleColor">255, 88, 120, 22</Property>
+      <Property Name="ScaleMax">255</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xabbcaab8e0e5ee4468e87deea1c72be88583" ControlName="Switch / Indicator 1">
+      <Property Name="Name">Xabbcaab8e0e5ee4468e87deea1c72be88583</Property>
+      <Property Name="Size">73, 95</Property>
+      <Property Name="Location">278, 51</Property>
+      <Property Name="SymbolConfiguration">8;16;;;;ACC_SysVariable;1;;;-1;;;Value;;;0</Property>
+      <Property Name="TabIndex">1</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">888, 423</Property>
+    <Property Name="Location">0, 0</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>

@@ -1,0 +1,29 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  mstimer sendTimer ;
+  const int TimerOfset = 50;
+  message ACC_message ACC_CAPL_Message;
+  char ACC_CAPL_Signal = 0;
+}
+
+on start{
+setTimer(sendTimer,TimerOfset);
+
+}
+on message speed_message{
+  write("ecu1 receive speed");
+}
+
+on timer sendTimer{
+  //ACC_CAPL_Signal ^= 1;
+  ACC_CAPL_Signal =@sysvar::ACC_SysVariable;
+  ACC_CAPL_Message.ACC_signal.phys = ACC_CAPL_Signal;
+  output(ACC_CAPL_Message);
+ setTimer(sendTimer,TimerOfset);
+}

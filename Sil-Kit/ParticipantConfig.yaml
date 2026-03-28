@@ -1,0 +1,5 @@
+Description: Cpp participant for reading speed_message from CANoe
+Logging:
+  Sinks:
+    - Type: Stdout
+      Level: Info

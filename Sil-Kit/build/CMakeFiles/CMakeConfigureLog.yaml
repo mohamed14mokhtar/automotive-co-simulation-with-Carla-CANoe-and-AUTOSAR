@@ -1,0 +1,1833 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/27/2026 3:41:09 PM.
+      
+      Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.50
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/4.3.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/msys64/usr/bin/lld-link.com"
+      - "C:/msys64/usr/bin/lld-link.exe"
+      - "C:/msys64/usr/bin/lld-link"
+      - "C:/Program Files/Git/bin/lld-link.com"
+      - "C:/Program Files/Git/bin/lld-link.exe"
+      - "C:/Program Files/Git/bin/lld-link"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link.com"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link.exe"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/mt"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/mt.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/mt.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/msys64/mingw64/bin/mt.com"
+      - "C:/msys64/mingw64/bin/mt.exe"
+      - "C:/msys64/mingw64/bin/mt"
+      - "C:/msys64/usr/bin/mt.com"
+      - "C:/msys64/usr/bin/mt.exe"
+      - "C:/msys64/usr/bin/mt"
+      - "C:/Program Files/Git/bin/mt.com"
+      - "C:/Program Files/Git/bin/mt.exe"
+      - "C:/Program Files/Git/bin/mt"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/mt.com"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/mt.exe"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/mt.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/mt.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/mt"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/mt.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/mt.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/mt"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/mt.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/mt.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/mt.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/mt.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/mt.com"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/mt.exe"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/"
+    found: "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/27/2026 3:41:10 PM.
+      
+      Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.63
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/4.3.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x86/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/msys64/usr/bin/lld-link.com"
+      - "C:/msys64/usr/bin/lld-link.exe"
+      - "C:/msys64/usr/bin/lld-link"
+      - "C:/Program Files/Git/bin/lld-link.com"
+      - "C:/Program Files/Git/bin/lld-link.exe"
+      - "C:/Program Files/Git/bin/lld-link"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/lld-link"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/lld-link"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link.com"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link.exe"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/sbin/"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/"
+      - "C:/Program Files (x86)/CppSpeedReader/bin/"
+      - "C:/Program Files (x86)/CppSpeedReader/sbin/"
+      - "C:/Program Files (x86)/CppSpeedReader/"
+    searched_directories:
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/rc.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/rc.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/msys64/mingw64/bin/rc.com"
+      - "C:/msys64/mingw64/bin/rc.exe"
+      - "C:/msys64/mingw64/bin/rc"
+      - "C:/msys64/usr/bin/rc.com"
+      - "C:/msys64/usr/bin/rc.exe"
+      - "C:/msys64/usr/bin/rc"
+      - "C:/Program Files/Git/bin/rc.com"
+      - "C:/Program Files/Git/bin/rc.exe"
+      - "C:/Program Files/Git/bin/rc"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/rc.com"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/rc.exe"
+      - "C:/Users/MohamedMooo/Downloads/ARM_Toolchain/ARM/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/rc.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/rc.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/rc"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/rc.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/rc.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/rc"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/rc.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/rc.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/Scripts/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python37-32/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/MohamedMooo/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/rc.com"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/rc.exe"
+      - "C:/Program Files/Vector Informatik GmbH/VIO System Configuration Tool/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/bin/rc"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/sbin/rc.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/sbin/rc.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/sbin/rc"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/rc.com"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/rc.exe"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/rc"
+      - "C:/Program Files (x86)/CppSpeedReader/bin/rc.com"
+      - "C:/Program Files (x86)/CppSpeedReader/bin/rc.exe"
+      - "C:/Program Files (x86)/CppSpeedReader/bin/rc"
+      - "C:/Program Files (x86)/CppSpeedReader/sbin/rc.com"
+      - "C:/Program Files (x86)/CppSpeedReader/sbin/rc.exe"
+      - "C:/Program Files (x86)/CppSpeedReader/sbin/rc"
+      - "C:/Program Files (x86)/CppSpeedReader/rc.com"
+      - "C:/Program Files (x86)/CppSpeedReader/rc.exe"
+      - "C:/Program Files (x86)/CppSpeedReader/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CppSpeedReader"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64"
+        - "C:/Program Files (x86)/CppSpeedReader"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b9qflj"
+      binary: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b9qflj"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b9qflj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d59b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/27/2026 3:41:11 PM.
+        
+        Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9qflj\\cmTC_1d59b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9qflj\\Debug\\".
+          Creating directory "cmTC_1d59b.dir\\Debug\\cmTC_1d59b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1d59b.dir\\Debug\\cmTC_1d59b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1d59b.dir\\Debug\\cmTC_1d59b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1d59b.dir\\Debug\\\\" /Fd"cmTC_1d59b.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1d59b.dir\\Debug\\\\" /Fd"cmTC_1d59b.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9qflj\\Debug\\cmTC_1d59b.exe" /INCREMENTAL /ILK:"cmTC_1d59b.dir\\Debug\\cmTC_1d59b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b9qflj/Debug/cmTC_1d59b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b9qflj/Debug/cmTC_1d59b.lib" /MACHINE:X86  /machine:X86 cmTC_1d59b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1d59b.vcxproj -> C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9qflj\\Debug\\cmTC_1d59b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1d59b.dir\\Debug\\cmTC_1d59b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1d59b.dir\\Debug\\cmTC_1d59b.tlog\\cmTC_1d59b.lastbuildstate".
+        Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9qflj\\cmTC_1d59b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35726.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b1pu4a"
+      binary: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b1pu4a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b1pu4a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a57b8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/27/2026 3:41:12 PM.
+        
+        Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b1pu4a\\cmTC_a57b8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b1pu4a\\Debug\\".
+          Creating directory "cmTC_a57b8.dir\\Debug\\cmTC_a57b8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a57b8.dir\\Debug\\cmTC_a57b8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a57b8.dir\\Debug\\cmTC_a57b8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_a57b8.dir\\Debug\\\\" /Fd"cmTC_a57b8.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_a57b8.dir\\Debug\\\\" /Fd"cmTC_a57b8.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b1pu4a\\Debug\\cmTC_a57b8.exe" /INCREMENTAL /ILK:"cmTC_a57b8.dir\\Debug\\cmTC_a57b8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b1pu4a/Debug/cmTC_a57b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-b1pu4a/Debug/cmTC_a57b8.lib" /MACHINE:X86  /machine:X86 cmTC_a57b8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a57b8.vcxproj -> C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b1pu4a\\Debug\\cmTC_a57b8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a57b8.dir\\Debug\\cmTC_a57b8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a57b8.dir\\Debug\\cmTC_a57b8.tlog\\cmTC_a57b8.lastbuildstate".
+        Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b1pu4a\\cmTC_a57b8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35726.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cmake/SilKit/SilKitConfig.cmake:8 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-ocklrw"
+      binary: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-ocklrw"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-ocklrw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bb8d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/27/2026 3:41:12 PM.
+        
+        Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\cmTC_8bb8d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\Debug\\".
+          Creating directory "cmTC_8bb8d.dir\\Debug\\cmTC_8bb8d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8bb8d.dir\\Debug\\cmTC_8bb8d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8bb8d.dir\\Debug\\cmTC_8bb8d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8bb8d.dir\\Debug\\\\" /Fd"cmTC_8bb8d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8bb8d.dir\\Debug\\\\" /Fd"cmTC_8bb8d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\src.c"
+          src.c
+        C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\cmTC_8bb8d.vcxproj]
+        Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\cmTC_8bb8d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\cmTC_8bb8d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ocklrw\\cmTC_8bb8d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cmake/SilKit/SilKitConfig.cmake:8 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-wa2fxe"
+      binary: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-wa2fxe"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-wa2fxe'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c2c0f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/27/2026 3:41:13 PM.
+        
+        Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\cmTC_c2c0f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\Debug\\".
+          Creating directory "cmTC_c2c0f.dir\\Debug\\cmTC_c2c0f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c2c0f.dir\\Debug\\cmTC_c2c0f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c2c0f.dir\\Debug\\cmTC_c2c0f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c2c0f.dir\\Debug\\\\" /Fd"cmTC_c2c0f.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c2c0f.dir\\Debug\\\\" /Fd"cmTC_c2c0f.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\Debug\\cmTC_c2c0f.exe" /INCREMENTAL /ILK:"cmTC_c2c0f.dir\\Debug\\cmTC_c2c0f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-wa2fxe/Debug/cmTC_c2c0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-wa2fxe/Debug/cmTC_c2c0f.lib" /MACHINE:X86  /machine:X86 cmTC_c2c0f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\cmTC_c2c0f.vcxproj]
+        Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\cmTC_c2c0f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\cmTC_c2c0f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wa2fxe\\cmTC_c2c0f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cmake/SilKit/SilKitConfig.cmake:8 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-1ci7qd"
+      binary: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-1ci7qd"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-1ci7qd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0846d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/27/2026 3:41:14 PM.
+        
+        Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\cmTC_0846d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\Debug\\".
+          Creating directory "cmTC_0846d.dir\\Debug\\cmTC_0846d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0846d.dir\\Debug\\cmTC_0846d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0846d.dir\\Debug\\cmTC_0846d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0846d.dir\\Debug\\\\" /Fd"cmTC_0846d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0846d.dir\\Debug\\\\" /Fd"cmTC_0846d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\Debug\\cmTC_0846d.exe" /INCREMENTAL /ILK:"cmTC_0846d.dir\\Debug\\cmTC_0846d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-1ci7qd/Debug/cmTC_0846d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/CMakeScratch/TryCompile-1ci7qd/Debug/cmTC_0846d.lib" /MACHINE:X86  /machine:X86 cmTC_0846d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\cmTC_0846d.vcxproj]
+        Done Building Project "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\cmTC_0846d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\cmTC_0846d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\MohamedMooo\\Downloads\\CarlaWithCanoe\\Sil-Kit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ci7qd\\cmTC_0846d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:17 (find_package)"
+    name: "SilKit"
+    configs:
+      -
+        filename: "SilKit.cps"
+        kind: "cps"
+      -
+        filename: "silkit.cps"
+        kind: "cps"
+      -
+        filename: "SilKitConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "silkit-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SilKit"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/SilKitConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/silkit-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/lib/cps/SilKit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/lib/cps/silkit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/share/cps/SilKit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CMakeFiles/pkgRedirects/share/cps/silkit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/SilKitConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/silkit-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cps/SilKit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cps/silkit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/share/cps/SilKit.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/share/cps/silkit.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit/lib/cmake/SilKit/SilKitConfig.cmake"
+      mode: "config"
+      version: "5.0.3"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/MohamedMooo/Downloads/SilKit-5.0.3-Win-x86-VS2019/SilKit-5.0.3-Win-x86-VS2019/SilKit"
+      ENV{PATH}:
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\MohamedMooo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Users\\MohamedMooo\\Downloads\\ARM_Toolchain\\ARM\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\MohamedMooo\\Downloads\\cmake-4.3.0-rc3-windows-x86_64\\cmake-4.3.0-rc3-windows-x86_64\\bin"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python37-32\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\MohamedMooo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "c:\\Program Files\\Vector Informatik GmbH\\VIO System Configuration Tool\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CppSpeedReader"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/MohamedMooo/Downloads/cmake-4.3.0-rc3-windows-x86_64/cmake-4.3.0-rc3-windows-x86_64"
+        - "C:/Program Files (x86)/CppSpeedReader"
+...

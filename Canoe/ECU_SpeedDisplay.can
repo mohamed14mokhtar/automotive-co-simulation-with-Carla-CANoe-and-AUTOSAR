@@ -1,0 +1,29 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  message speed_message Speed_CAPL_Message;
+  int counter = 0;
+}
+
+on message ACC_message{
+ if(this.ACC_signal.phys == 1){
+   if(counter == 255){
+    counter = 255;
+   }else{
+     ++counter;
+   }
+}else{
+  if(counter == 0){
+    counter = 0;
+   }else{
+     --counter;
+   }
+}
+Speed_CAPL_Message.speed_signal.phys = counter;
+output(Speed_CAPL_Message);
+}

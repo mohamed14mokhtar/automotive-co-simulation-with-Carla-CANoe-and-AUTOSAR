@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-1.xsd">
+    <AR-PACKAGES>
+
+        <!-- ================= Interfaces ================= -->
+        <AR-PACKAGE>
+            <SHORT-NAME>Interface</SHORT-NAME>
+            <ELEMENTS>
+
+                <SENDER-RECEIVER-INTERFACE>
+                    <SHORT-NAME>SRI_EgoSpeed_AppSWC</SHORT-NAME>
+                    <DATA-ELEMENTS>
+                        <VARIABLE-DATA-PROTOTYPE>
+                            <SHORT-NAME>EgoSpeed_AppSWC</SHORT-NAME>
+                            <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_PlatformTypes/ImplementationDataTypes/float64</TYPE-TREF>
+                        </VARIABLE-DATA-PROTOTYPE>
+                    </DATA-ELEMENTS>
+                </SENDER-RECEIVER-INTERFACE>
+
+                <SENDER-RECEIVER-INTERFACE>
+                    <SHORT-NAME>SRI_EgoSpeed_SASWC</SHORT-NAME>
+                    <DATA-ELEMENTS>
+                        <VARIABLE-DATA-PROTOTYPE>
+                            <SHORT-NAME>EgoSpeed_SASWC</SHORT-NAME>
+                            <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_PlatformTypes/ImplementationDataTypes/float64</TYPE-TREF>
+                        </VARIABLE-DATA-PROTOTYPE>
+                    </DATA-ELEMENTS>
+                </SENDER-RECEIVER-INTERFACE>
+
+                <SENDER-RECEIVER-INTERFACE>
+                    <SHORT-NAME>SRI_EgoSpeed_IOSWC</SHORT-NAME>
+                    <DATA-ELEMENTS>
+                        <VARIABLE-DATA-PROTOTYPE>
+                            <SHORT-NAME>EgoSpeed_IOSWC</SHORT-NAME>
+                            <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_PlatformTypes/ImplementationDataTypes/float64</TYPE-TREF>
+                        </VARIABLE-DATA-PROTOTYPE>
+                    </DATA-ELEMENTS>
+                </SENDER-RECEIVER-INTERFACE>
+
+            </ELEMENTS>
+        </AR-PACKAGE>
+
+        <!-- ================= SWC ================= -->
+        <AR-PACKAGE>
+            <SHORT-NAME>SWC</SHORT-NAME>
+            <ELEMENTS>
+
+                <!-- ========== Algorithm_SWC ========== -->
+                <APPLICATION-SW-COMPONENT-TYPE>
+                    <SHORT-NAME>Algorithm_SWC</SHORT-NAME>
+
+                    <PORTS>
+                        <R-PORT-PROTOTYPE>
+                            <SHORT-NAME>RP_EgoSpeed_APP</SHORT-NAME>
+                            <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_AppSWC</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+
+                        <P-PORT-PROTOTYPE>
+                            <SHORT-NAME>PP_EgoSpeed_APP</SHORT-NAME>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_AppSWC</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+
+                        <P-PORT-PROTOTYPE>
+                            <SHORT-NAME>PP_EgoSpeed_SA</SHORT-NAME>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_SASWC</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                    </PORTS>
+
+                    <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR>
+                            <SHORT-NAME>Behavior_AEB</SHORT-NAME>
+
+                            <EVENTS>
+                                <TIMING-EVENT>
+                                    <SHORT-NAME>TimingEvent_10ms</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SWC/Algorithm_SWC/Behavior_AEB/Runnable_ReceiveCanFram</START-ON-EVENT-REF>
+                                    <PERIOD>0.01</PERIOD>
+                                </TIMING-EVENT>
+
+                                <!-- FIX 3a: Added DATA-IREF + FIX 4: Typo corrected -->
+                                <DATA-RECEIVED-EVENT>
+                                    <SHORT-NAME>Data_receiveEvent1</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SWC/Algorithm_SWC/Behavior_AEB/Runnable_ApplySpeed</START-ON-EVENT-REF>
+                                    <DATA-IREF>
+                                        <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SWC/Algorithm_SWC/RP_EgoSpeed_APP</CONTEXT-R-PORT-REF>
+                                        <TARGET-DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_AppSWC/EgoSpeed_AppSWC</TARGET-DATA-ELEMENT-REF>
+                                    </DATA-IREF>
+                                </DATA-RECEIVED-EVENT>
+                            </EVENTS>
+
+                            <RUNNABLES>
+                                <RUNNABLE-ENTITY>
+                                    <SHORT-NAME>Runnable_ReceiveCanFram</SHORT-NAME>
+                                    <DATA-WRITE-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>speed</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/SWC/Algorithm_SWC/PP_EgoSpeed_APP</PORT-PROTOTYPE-REF>
+                                                    <!-- FIX 1: Corrected data element name -->
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_AppSWC/EgoSpeed_AppSWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-WRITE-ACCESSS>
+                                </RUNNABLE-ENTITY>
+
+                                <RUNNABLE-ENTITY>
+                                    <SHORT-NAME>Runnable_ApplySpeed</SHORT-NAME>
+                                    <DATA-READ-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>speed_procees</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/SWC/Algorithm_SWC/RP_EgoSpeed_APP</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_AppSWC/EgoSpeed_AppSWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-READ-ACCESSS>
+                                    <DATA-WRITE-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>SpeedProcess</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/SWC/Algorithm_SWC/PP_EgoSpeed_SA</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_SASWC/EgoSpeed_SASWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-WRITE-ACCESSS>
+                                </RUNNABLE-ENTITY>
+                            </RUNNABLES>
+
+                        </SWC-INTERNAL-BEHAVIOR>
+                    </INTERNAL-BEHAVIORS>
+                </APPLICATION-SW-COMPONENT-TYPE>
+
+                <!-- ========== SA_Speed_SWC ========== -->
+                <SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+                    <SHORT-NAME>SA_Speed_SWC</SHORT-NAME>
+                    <PORTS>
+                        <P-PORT-PROTOTYPE>
+                            <SHORT-NAME>PP_EgoSpeed_SA</SHORT-NAME>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_IOSWC</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                        <R-PORT-PROTOTYPE>
+                            <SHORT-NAME>RP_EgoSpeed_IO</SHORT-NAME>
+                            <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_SASWC</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                    </PORTS>
+
+                    <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR>
+                            <SHORT-NAME>Behavior_SA</SHORT-NAME>
+                            <EVENTS>
+                                <!-- FIX 3b: Added DATA-IREF -->
+                                <DATA-RECEIVED-EVENT>
+                                    <SHORT-NAME>DataReceiveEvent2</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SWC/SA_Speed_SWC/Behavior_SA/SpeedTakeAction</START-ON-EVENT-REF>
+                                    <DATA-IREF>
+                                        <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SWC/SA_Speed_SWC/RP_EgoSpeed_IO</CONTEXT-R-PORT-REF>
+                                        <TARGET-DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_SASWC/EgoSpeed_SASWC</TARGET-DATA-ELEMENT-REF>
+                                    </DATA-IREF>
+                                </DATA-RECEIVED-EVENT>
+                            </EVENTS>
+
+                            <RUNNABLES>
+                                <RUNNABLE-ENTITY>
+                                    <SHORT-NAME>SpeedTakeAction</SHORT-NAME>
+                                    <!-- FIX 2a: Read from R-PORT (RP_EgoSpeed_IO) -->
+                                    <DATA-READ-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>Speed_st</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/SWC/SA_Speed_SWC/RP_EgoSpeed_IO</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_SASWC/EgoSpeed_SASWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-READ-ACCESSS>
+                                    <!-- FIX 2b: Write to P-PORT (PP_EgoSpeed_SA) -->
+                                    <DATA-WRITE-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>speed_St</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/SWC/SA_Speed_SWC/PP_EgoSpeed_SA</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_IOSWC/EgoSpeed_IOSWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-WRITE-ACCESSS>
+                                </RUNNABLE-ENTITY>
+                            </RUNNABLES>
+                        </SWC-INTERNAL-BEHAVIOR>
+                    </INTERNAL-BEHAVIORS>
+                </SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+
+                <!-- ========== WarningStatus (CDD) ========== -->
+                <COMPLEX-DEVICE-DRIVER-SW-COMPONENT-TYPE>
+                    <SHORT-NAME>WarningStatus</SHORT-NAME>
+                    <PORTS>
+                        <R-PORT-PROTOTYPE>
+                            <SHORT-NAME>RP_EgoSpeed_COM</SHORT-NAME>
+                            <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interface/SRI_EgoSpeed_IOSWC</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                    </PORTS>
+
+                    <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR>
+                            <SHORT-NAME>Behavior_COM</SHORT-NAME>
+                            <EVENTS>
+                                <!-- FIX 3c: Added DATA-IREF -->
+                                <DATA-RECEIVED-EVENT>
+                                    <SHORT-NAME>DataReceiveEvent3</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SWC/WarningStatus/Behavior_COM/ALG_Warning</START-ON-EVENT-REF>
+                                    <DATA-IREF>
+                                        <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SWC/WarningStatus/RP_EgoSpeed_COM</CONTEXT-R-PORT-REF>
+                                        <TARGET-DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_IOSWC/EgoSpeed_IOSWC</TARGET-DATA-ELEMENT-REF>
+                                    </DATA-IREF>
+                                </DATA-RECEIVED-EVENT>
+                            </EVENTS>
+                            <RUNNABLES>
+                                <RUNNABLE-ENTITY>
+                                    <SHORT-NAME>ALG_Warning</SHORT-NAME>
+                                    <DATA-READ-ACCESSS>
+                                        <VARIABLE-ACCESS>
+                                            <SHORT-NAME>Speed_st</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/SWC/WarningStatus/RP_EgoSpeed_COM</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interface/SRI_EgoSpeed_IOSWC/EgoSpeed_IOSWC</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                    </DATA-READ-ACCESSS>
+                                </RUNNABLE-ENTITY>
+                            </RUNNABLES>
+                        </SWC-INTERNAL-BEHAVIOR>
+                    </INTERNAL-BEHAVIORS>
+                </COMPLEX-DEVICE-DRIVER-SW-COMPONENT-TYPE>
+
+            </ELEMENTS>
+        </AR-PACKAGE>
+
+    </AR-PACKAGES>
+</AUTOSAR>

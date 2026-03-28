@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MohamedMooo\Downloads\CarlaWithCanoe\Sil-Kit\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MohamedMooo\Downloads\CarlaWithCanoe\Sil-Kit\RTE_Generation\Rte_WarningStatus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MohamedMooo\Downloads\CarlaWithCanoe\Sil-Kit\RTE_Generation\Algorithm_SWC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MohamedMooo\Downloads\CarlaWithCanoe\Sil-Kit\RTE_Generation\Rte_SA_Speed_SWC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MohamedMooo\Downloads\CarlaWithCanoe\Sil-Kit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13A7E7B5-B51F-3893-9693-A0F6F217A8CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

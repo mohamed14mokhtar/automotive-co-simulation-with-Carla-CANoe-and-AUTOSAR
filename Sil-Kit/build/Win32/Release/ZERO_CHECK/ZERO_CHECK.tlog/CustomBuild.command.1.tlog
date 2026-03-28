@@ -1,0 +1,10 @@
+^C:\USERS\MOHAMEDMOOO\DOWNLOADS\CARLAWITHCANOE\SIL-KIT\BUILD\CMAKEFILES\59CCB988242D6CBF3124C32B4157162B\GENERATE.STAMP.RULE
+setlocal
+C:\Users\MohamedMooo\Downloads\cmake-4.3.0-rc3-windows-x86_64\cmake-4.3.0-rc3-windows-x86_64\bin\cmake.exe -SC:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit -BC:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/MohamedMooo/Downloads/CarlaWithCanoe/Sil-Kit/build/CppSpeedReader.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
