@@ -91,8 +91,10 @@ This virtual setup helped in understanding how CANoe works in practice, includin
 - message monitoring and interaction through a virtual CAN path
 
 ### Demonstration Video
-The following demo shows the CANoe panel behavior, throttle interaction, speed updates, LED indication, and CAN frame transmission through the virtual CAN path.
-
-[![Watch the CANoe demo](images/canoe/canoe_video_preview.png)](https://drive.google.com/file/d/1LYdlF2GKU6qcSpv8W7oamq5-uRR9T2Ce/view?usp=drive_link)
-
-*Figure 4: CANoe panel interaction and CAN frame transmission through the virtual CAN path.*
+<p align="center">
+  <video width="800" controls>
+    <source src="https://drive.google.com/uc?export=view&id=1LYdlF2GKU6qcSpv8W7oamq5-uRR9T2Ce" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+<p align="center"><em>Figure 4: CANoe panel interaction and CAN frame transmission through the virtual CAN path.</em></p>
