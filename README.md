@@ -9,6 +9,7 @@
 - [SIL Kit and the C++ Participant](#sil-kit-and-the-c-participant)
 - [CARLA and Its Connection to the C++ Participant](#carla-and-its-connection-to-the-c-participant)
 - [AUTOSAR Architecture](#autosar-architecture)
+- [How to Run](#how-to-run)
 - [Results](#results)
 - [Conclusion](#conclusion)
   
@@ -264,6 +265,28 @@ The AUTOSAR-based application flow in the project can be summarized as follows:
   </tr>
 </table>
 <p align="center"><em>Figure 10: AUTOSAR software component architecture representations used in the project.</em></p>
+## How to Run
+
+To run this project, you first need to make sure that the required tools and dependencies are available:
+
+- **CARLA Simulator**
+- **Vector CANoe** with a valid license
+- **Eclipse SIL Kit Registry**
+
+After preparing the environment, follow these steps:
+
+### 1. Start the SIL Kit Registry
+Run the SIL Kit Registry so that the simulation participants can connect to the communication environment.
+
+### 2. Start the CARLA server
+Launch the CARLA simulator server.
+
+### 3. Run the CARLA Python script
+Execute the Python script located at: carla/script.py
+
+### 4. Run the Cpp Executable file
+executable located at: Sil-Kit/build/Release/CppSpeedReader.exe
+### 5. Run Canoe
 
 ## Results
 The project demonstrates a complete automotive co-simulation workflow integrating **CARLA**, **Vector CANoe**, **AUTOSAR**, and **Eclipse SIL Kit**.
