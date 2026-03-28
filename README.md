@@ -144,7 +144,7 @@ Its main functions are:
 
 Through this design, the C++ participant bridges the automotive communication side and the driving simulation side.
 
-### Role of the C++ Participant
+## Role of the C++ Participant
 The participant is responsible for:
 - joining the SIL Kit environment
 - creating the CAN communication interface
@@ -164,3 +164,20 @@ The participant therefore acts as the core connection point between:
   <img src="https://drive.google.com/uc?export=view&id=1eBm8xpRggQ5G1VkqN_wyuQQXDWyUWIv1" alt="SIL Kit C++ Participant" width="850"/>
 </p>
 <p align="center"><em>Figure 7: SIL Kit C++ participant integrated with AUTOSAR RTE code and connected to CARLA through a socket interface.</em></p>
+
+## CARLA and Its Connection to the C++ Participant
+
+In this project, **CARLA** is used as the driving simulator to provide vehicle behavior and runtime data within the co-simulation environment. To connect CARLA with the rest of the system, a **socket-based communication interface** is implemented between **CARLA** and the **C++ participant**.
+
+Although multiple integration methods are possible, **socket programming** was chosen because it provides a simple and flexible way to exchange data. Through this socket connection, CARLA can send vehicle information to the C++ participant and receive data when needed.
+
+In the implemented scenario, a vehicle is added to the CARLA map and its speed is monitored during runtime. The vehicle speed is then sent through the socket connection to the **C++ participant**, which processes the data and forwards the related information through the SIL Kit-based communication environment.
+
+A warning behavior is also implemented in this project. When the vehicle speed exceeds **40**, a warning is triggered and sent to **CANoe**. This demonstrates how data generated in CARLA can directly affect the automotive communication and warning logic in the co-simulation setup.
+
+### CARLA Communication Workflow
+1. A vehicle is spawned in the CARLA map.
+2. The vehicle speed is read during simulation.
+3. The speed value is sent to the **C++ participant** through the socket interface.
+4. The C++ participant processes the data and exchanges the corresponding messages with **CANoe** through **SIL Kit**.
+5. If the speed becomes greater than **40**, a warning is triggered in **CANoe**.
