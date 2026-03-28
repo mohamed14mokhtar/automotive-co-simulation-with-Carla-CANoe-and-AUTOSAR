@@ -1,5 +1,17 @@
 # Automotive Co-Simulation with CARLA, Vector CANoe, AUTOSAR, and SIL Kit
-
+## Table of Contents
+- [Overview](#overview)
+- [Goals](#goals)
+- [System Architecture](#system-architecture)
+- [Vector CANoe](#vector-canoe)
+- [Connecting CANoe with SIL Kit Using the SIL Kit Adapter](#connecting-canoe-with-sil-kit-using-the-sil-kit-adapter)
+- [CAN Protocol](#can-protocol)
+- [SIL Kit and the C++ Participant](#sil-kit-and-the-c-participant)
+- [CARLA and Its Connection to the C++ Participant](#carla-and-its-connection-to-the-c-participant)
+- [AUTOSAR Architecture](#autosar-architecture)
+- [Results](#results)
+- [Conclusion](#conclusion)
+  
 ## Overview
 This project presents an automotive co-simulation environment integrating **CARLA**, **Vector CANoe**, **AUTOSAR architecture**, and **Eclipse SIL Kit** through a **C++ participant**. The system is designed to enable communication between a driving simulator and automotive network simulation tools using the **CAN protocol**.
 
@@ -24,6 +36,7 @@ The main goals of this project are to:
 
 ## System Architecture
 The co-simulation environment consists of the following main components:
+
 <p align="center">
   <img src="data/Screenshot 2026-03-28 062200.png" alt="System Architecture" width="500"/>
 </p>
@@ -56,7 +69,7 @@ The CANoe configuration includes:
 - **CAPL programs** for ECU behavior
 - a **panel** for user interaction and signal visualization
 
-the ECUs are connected to a CANoe panel through **system variables**. The panel includes:
+The ECUs are connected to a CANoe panel through **system variables**. The panel includes:
 - a **switch** that acts as a throttle input
 - a **meter/gauge** that displays the vehicle speed
 - an **LED indicator** that turns on when the vehicle speed exceeds **40 km/h**
@@ -65,7 +78,7 @@ the ECUs are connected to a CANoe panel through **system variables**. The panel 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1AO_bxw-x2sKZ4sw82MX4YAKEA01aVMps" alt="CANoe Simulation Setup" width="900"/>
 </p>
-<p align="center"><em>Figure 3: CANoe simulation setup showing the three virtual ECUs connected to the CAN network.</em></p>
+<p align="center"><em>Figure 2: CANoe simulation setup showing the three virtual ECUs connected to the CAN network.</em></p>
 
 The workflow is as follows:
 1. The user presses the throttle switch on the CANoe panel.
@@ -75,11 +88,12 @@ The workflow is as follows:
 5. The data is exchanged with the co-simulation setup and affects the vehicle behavior in **CARLA**.
 6. The current speed is received through CAN signals and displayed on the panel meter.
 7. When the speed becomes greater than **40**, the **LED indicator** on the panel is activated.
+
 ### CANoe Panel
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1aV1nBn6kvP29vpH7-lFECfm6Kw_cJIuq" alt="CANoe Panel" width="700"/>
 </p>
-<p align="center"><em>Figure 2: CANoe panel with throttle control, speed meter, and LED indicator.</em></p>
+<p align="center"><em>Figure 3: CANoe panel with throttle control, speed meter, and LED indicator.</em></p>
 
 This virtual setup helped in understanding how CANoe works in practice, including:
 - ECU simulation
@@ -97,7 +111,6 @@ This virtual setup helped in understanding how CANoe works in practice, includin
 <p align="center"><em>Figure 4: CANoe panel interaction and CAN frame transmission through the virtual CAN path.</em></p>
 
 ## Connecting CANoe with SIL Kit Using the SIL Kit Adapter
-
 In this project, the connection between **Vector CANoe** and **Eclipse SIL Kit** is achieved using the **SIL Kit Adapter** provided by **Vector**. This adapter allows CANoe to join the SIL Kit-based co-simulation environment and exchange CAN messages with other participants.
 
 To establish the connection, the adapter is configured with:
@@ -115,7 +128,6 @@ This adapter is an important part of the integration because it enables the CANo
 <p align="center"><em>Figure 5: GIF showing how CANoe is connected to SIL Kit using the SIL Kit Adapter.</em></p>
 
 ## CAN Protocol
-
 Before discussing the communication flow in this project, it is useful to briefly introduce the **CAN frame**, which is the basic communication unit of the **Controller Area Network (CAN)** protocol.
 
 A CAN frame is used to exchange data between nodes in an automotive network. Each frame contains an **identifier** that defines the message meaning and priority, and a **data field** that carries the transmitted information. Additional fields provide length information, control, and error checking.
@@ -132,8 +144,8 @@ A typical CAN frame includes:
 <p align="center"><em>Figure 6: General structure of a CAN frame.</em></p>
 
 In this project, CAN frames are used as the main communication mechanism between **Vector CANoe**, the **SIL Kit environment**, and the **C++ participant**.
-## SIL Kit and the C++ Participant
 
+## SIL Kit and the C++ Participant
 In this project, a **C++ participant** is created in the **Eclipse SIL Kit** environment to manage the communication between the different parts of the co-simulation setup. The participant acts as the central integration component of the project.
 
 Its main functions are:
@@ -144,7 +156,7 @@ Its main functions are:
 
 Through this design, the C++ participant bridges the automotive communication side and the driving simulation side.
 
-## Role of the C++ Participant
+### Role of the C++ Participant
 The participant is responsible for:
 - joining the SIL Kit environment
 - creating the CAN communication interface
@@ -166,7 +178,6 @@ The participant therefore acts as the core connection point between:
 <p align="center"><em>Figure 7: SIL Kit C++ participant integrated with AUTOSAR RTE code and connected to CARLA through a socket interface.</em></p>
 
 ## CARLA and Its Connection to the C++ Participant
-
 In this project, **CARLA** is used as the driving simulator to provide vehicle behavior and runtime data within the co-simulation environment. To connect CARLA with the rest of the system, a **socket-based communication interface** is implemented between **CARLA** and the **C++ participant**.
 
 Although multiple integration methods are possible, **socket programming** was chosen because it provides a simple and flexible way to exchange data. Through this socket connection, CARLA can send vehicle information to the C++ participant and receive data when needed.
@@ -189,7 +200,6 @@ A warning behavior is also implemented in this project. When the vehicle speed e
 <p align="center"><em>Figure 8: CARLA runtime demo showing the vehicle behavior and its connection to the C++ participant.</em></p>
 
 ## AUTOSAR Architecture
-
 **AUTOSAR** (AUTomotive Open System ARchitecture) is a standardized software architecture for automotive systems. It defines a structured way to design software components, interfaces, runnables, and communication between different parts of an ECU. In this project, AUTOSAR is applied at the **application layer** to organize the software logic used in the co-simulation workflow.
 
 ### AUTOSAR Overview
@@ -254,3 +264,19 @@ The AUTOSAR-based application flow in the project can be summarized as follows:
   </tr>
 </table>
 <p align="center"><em>Figure 10: AUTOSAR software component architecture representations used in the project.</em></p>
+
+## Results
+The project demonstrates a complete automotive co-simulation workflow integrating **CARLA**, **Vector CANoe**, **AUTOSAR**, and **Eclipse SIL Kit**.
+
+The achieved results include:
+- successful CAN communication between **CANoe** and the **C++ participant**
+- integration of **CANoe** with **SIL Kit** through the **SIL Kit Adapter**
+- socket-based communication between **CARLA** and the **C++ participant**
+- AUTOSAR-based application logic integrated through the **RTE**
+- speed monitoring and warning generation based on runtime vehicle behavior
+- visual validation through CANoe panels, gauges, LED indicators, and simulation demonstrations
+
+## Conclusion
+This project demonstrates an automotive co-simulation environment that combines **CARLA**, **Vector CANoe**, **AUTOSAR architecture**, and **Eclipse SIL Kit** through a **C++ participant**. The system uses **CAN communication**, **socket-based CARLA integration**, and **AUTOSAR-oriented software structure** to build a complete simulation workflow.
+
+The project shows how vehicle simulation, CAN network simulation, AUTOSAR application logic, and distributed communication tools can be integrated into one coherent setup for testing, learning, and demonstration purposes.
