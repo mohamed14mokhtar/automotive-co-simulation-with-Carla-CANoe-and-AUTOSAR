@@ -132,3 +132,35 @@ A typical CAN frame includes:
 <p align="center"><em>Figure 6: General structure of a CAN frame.</em></p>
 
 In this project, CAN frames are used as the main communication mechanism between **Vector CANoe**, the **SIL Kit environment**, and the **C++ participant**.
+## SIL Kit and the C++ Participant
+
+In this project, a **C++ participant** is created in the **Eclipse SIL Kit** environment to manage the communication between the different parts of the co-simulation setup. The participant acts as the central integration component of the project.
+
+Its main functions are:
+- receiving **CAN frames** from **Vector CANoe**
+- sending **CAN frames** back to CANoe through the SIL Kit environment
+- opening a **socket connection** to communicate with **CARLA**
+- integrating the **AUTOSAR RTE code** to execute the application logic of the project
+
+Through this design, the C++ participant bridges the automotive communication side and the driving simulation side.
+
+### Role of the C++ Participant
+The participant is responsible for:
+- joining the SIL Kit environment
+- creating the CAN communication interface
+- receiving CAN messages from CANoe
+- sending CAN messages to CANoe
+- opening a socket connection toward CARLA
+- exchanging runtime data with CARLA
+- interacting with the AUTOSAR RTE logic
+- supporting the overall communication loop of the project
+
+The participant therefore acts as the core connection point between:
+- **CANoe**, through SIL Kit
+- **AUTOSAR RTE**, through the integrated application logic
+- **CARLA**, through the socket interface
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1eBm8xpRggQ5G1VkqN_wyuQQXDWyUWIv1" alt="SIL Kit C++ Participant" width="850"/>
+</p>
+<p align="center"><em>Figure 7: SIL Kit C++ participant integrated with AUTOSAR RTE code and connected to CARLA through a socket interface.</em></p>
