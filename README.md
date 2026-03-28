@@ -60,7 +60,7 @@ the ECUs are connected to a CANoe panel through **system variables**. The panel 
 - a **switch** that acts as a throttle input
 - a **meter/gauge** that displays the vehicle speed
 - an **LED indicator** that turns on when the vehicle speed exceeds **40 km/h**
-### CANoe Simulation Setup
+
 ### CANoe Simulation Setup
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1AO_bxw-x2sKZ4sw82MX4YAKEA01aVMps" alt="CANoe Simulation Setup" width="900"/>
@@ -95,4 +95,21 @@ This virtual setup helped in understanding how CANoe works in practice, includin
   <img src="https://drive.google.com/uc?export=view&id=1SNlX3kFiKMms_5dY2hmZhnhfabJKBZpR" alt="CANoe Demo GIF" width="800"/>
 </p>
 <p align="center"><em>Figure 4: CANoe panel interaction and CAN frame transmission through the virtual CAN path.</em></p>
-Important
+
+## Connecting CANoe with SIL Kit Using the SIL Kit Adapter
+
+In this project, the connection between **Vector CANoe** and **Eclipse SIL Kit** is achieved using the **SIL Kit Adapter** provided by **Vector**. This adapter allows CANoe to join the SIL Kit-based co-simulation environment and exchange CAN messages with other participants.
+
+To establish the connection, the adapter is configured with:
+- the **virtual network path**
+- the **SIL Kit Registry address and port**
+
+Once configured, CANoe can communicate with the SIL Kit environment through the adapter, making it possible to exchange CAN frames with the **C++ participant** connected to CARLA.
+
+This adapter is an important part of the integration because it enables the CANoe virtual CAN setup to participate in the distributed simulation workflow instead of remaining isolated.
+
+### SIL Kit Adapter Connection Demo
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1qKKlXkpdL_iwh-Q1uFtZKrMocPTnzXLk" alt="SIL Kit Adapter Connection Demo" width="850"/>
+</p>
+<p align="center"><em>Figure 5: GIF showing how CANoe is connected to SIL Kit using the SIL Kit Adapter.</em></p>
