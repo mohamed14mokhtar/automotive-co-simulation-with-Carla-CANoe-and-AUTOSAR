@@ -265,6 +265,7 @@ The AUTOSAR-based application flow in the project can be summarized as follows:
   </tr>
 </table>
 <p align="center"><em>Figure 10: AUTOSAR software component architecture representations used in the project.</em></p>
+
 ## How to Run
 
 To run this project, you first need to make sure that the required tools and dependencies are available:
