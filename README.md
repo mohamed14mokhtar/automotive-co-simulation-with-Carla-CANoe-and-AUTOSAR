@@ -93,7 +93,7 @@ This virtual setup helped in understanding how CANoe works in practice, includin
 - ### Demonstration Video
 <p align="center">
   <video width="800" controls>
-    <source src="data/meters.mp4" type="video/mp4">
+    <source src="https://drive.google.com/uc?export=view&id=1LYdlF2GKU6qcSpv8W7oamq5" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
