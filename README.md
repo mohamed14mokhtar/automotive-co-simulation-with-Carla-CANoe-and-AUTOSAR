@@ -288,6 +288,7 @@ Execute the Python script located at: carla/script.py
 ### 4. Run the Cpp Executable file
 executable located at: Sil-Kit/build/Release/CppSpeedReader.exe
 ### 5. Run Canoe
+start to control with the throttle and seec changes at the speed
 
 ## Results
 The project demonstrates a complete automotive co-simulation workflow integrating **CARLA**, **Vector CANoe**, **AUTOSAR**, and **Eclipse SIL Kit**.
