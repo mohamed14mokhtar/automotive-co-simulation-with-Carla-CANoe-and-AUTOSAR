@@ -155,13 +155,7 @@ int main()
                     float speed = static_cast<float>(event.frame.dataField[0]);
                     std::cout << "Received Speed = " << speed << std::endl;
                     
-                    // Check speed and send warning to CANoe
-                    sendWarningToCanoe(speed);
-
-                    speed = speed / 3.0f;
-
-                    // Send speed to CARLA
-                    sendSpeedToCarla(speed);
+                    Runnable_ApplySpeed();
 
                     
                 }
