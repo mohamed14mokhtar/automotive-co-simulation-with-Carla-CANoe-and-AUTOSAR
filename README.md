@@ -90,11 +90,9 @@ This virtual setup helped in understanding how CANoe works in practice, includin
 - signal mapping
 - message monitoring and interaction through a virtual CAN path
 
-### Demonstration Video
+### Demonstration GIF
 <p align="center">
-  <video width="800" controls>
-    <source src="https://drive.google.com/uc?export=download&id=1LYdlF2GKU6qcSpv8W7oamq5-uRR9T2Ce" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="https://drive.google.com/uc?export=view&id=1SNlX3kFiKMms_5dY2hmZhnhfabJKBZpR" alt="CANoe Demo GIF" width="800"/>
 </p>
 <p align="center"><em>Figure 4: CANoe panel interaction and CAN frame transmission through the virtual CAN path.</em></p>
+Important
