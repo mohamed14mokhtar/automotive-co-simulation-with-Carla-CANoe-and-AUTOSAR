@@ -243,12 +243,10 @@ The AUTOSAR-based application flow in the project can be summarized as follows:
 6. If the speed exceeds **40**, the **Complex Driver SWC** generates a warning
 
 ### AUTOSAR Architecture Representation
+### AUTOSAR Architecture Representation
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=121WhHp4blmAip8JBDqjKKDRoX4j5O9oc" alt="AUTOSAR Architecture Representation 1" width="850"/>
+  <img src="https://drive.google.com/uc?export=view&id=16Sl7YgNvsF9VMg0KUqlEUavdMHfegAI3" alt="AUTOSAR Architecture 1" width="45%"/>
+  &nbsp;
+  <img src="https://drive.google.com/uc?export=view&id=1OlC35pO_Iq6VjrJNF0y2e5Ketv4RxzC0" alt="AUTOSAR Architecture 2" width="45%"/>
 </p>
-<p align="center"><em>Figure 10: AUTOSAR project architecture representation.</em></p>
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=16Sl7YgNvsF9VMg0KUqlEUavdMHfegAI3" alt="AUTOSAR Architecture Representation 2" width="850"/>
-</p>
-<p align="center"><em>Figure 11: Detailed AUTOSAR software component architecture used in the project.</em></p>
+<p align="center"><em>Figure 10: AUTOSAR software component architecture representations used in the project.</em></p>
