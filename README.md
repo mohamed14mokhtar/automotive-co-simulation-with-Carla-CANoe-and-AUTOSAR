@@ -187,3 +187,68 @@ A warning behavior is also implemented in this project. When the vehicle speed e
   <img src="https://drive.google.com/uc?export=view&id=1N8cOurrBuQhf-aCUyirvi_1OPMRHDzYD" alt="CARLA Demo" width="850"/>
 </p>
 <p align="center"><em>Figure 8: CARLA runtime demo showing the vehicle behavior and its connection to the C++ participant.</em></p>
+
+## AUTOSAR Architecture
+
+**AUTOSAR** (AUTomotive Open System ARchitecture) is a standardized software architecture for automotive systems. It defines a structured way to design software components, interfaces, runnables, and communication between different parts of an ECU. In this project, AUTOSAR is applied at the **application layer** to organize the software logic used in the co-simulation workflow.
+
+### AUTOSAR Overview
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1Qx9p0dM52PFXMElfjLzZzYtWDCH5sIdd" alt="AUTOSAR Architecture Overview" width="900"/>
+</p>
+<p align="center"><em>Figure 9: General AUTOSAR architecture overview.</em></p>
+
+In this project, the application logic is structured according to an AUTOSAR-oriented design. The architecture contains **three software components (SWCs)**:
+
+- **Application SWC**
+- **Service Application SWC (SA-SWC)**
+- **Complex Driver SWC**
+
+### 1. Application SWC
+The first software component is an **Application SWC**. It contains **two runnables**:
+
+- **Runnable 1**
+  - receives CAN frames coming from **CANoe**
+  - is triggered by a **timing event every 10 ms**
+
+- **Runnable 2**
+  - takes the processed data
+  - sends the relevant information toward **CARLA** to move the vehicle
+
+This SWC is responsible for handling the incoming communication and forwarding the required control data to the simulator side.
+
+### 2. SA-SWC
+The second software component is a **Service Application SWC (SA-SWC)**. Its role is to:
+- receive the current **vehicle speed**
+- pass the speed information to the third SWC
+
+This component acts as an intermediate processing block in the application flow.
+
+### 3. Complex Driver SWC
+The third software component is a **Complex Driver SWC**. Its main role is to evaluate the speed value and generate a warning condition.
+
+- if the vehicle speed is **greater than 40**
+- the component sends a **warning signal**
+
+This warning is then used in the co-simulation workflow to trigger the corresponding indication.
+
+### Project AUTOSAR Flow
+The AUTOSAR-based application flow in the project can be summarized as follows:
+
+1. CAN frames are received from **CANoe**
+2. The **Application SWC** processes the incoming data every **10 ms**
+3. The processed data is sent toward **CARLA** to control the vehicle
+4. The vehicle speed is collected and passed to the **SA-SWC**
+5. The **SA-SWC** forwards the speed to the **Complex Driver SWC**
+6. If the speed exceeds **40**, the **Complex Driver SWC** generates a warning
+
+### AUTOSAR Architecture Representation
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=121WhHp4blmAip8JBDqjKKDRoX4j5O9oc" alt="AUTOSAR Architecture Representation 1" width="850"/>
+</p>
+<p align="center"><em>Figure 10: AUTOSAR project architecture representation.</em></p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=16Sl7YgNvsF9VMg0KUqlEUavdMHfegAI3" alt="AUTOSAR Architecture Representation 2" width="850"/>
+</p>
+<p align="center"><em>Figure 11: Detailed AUTOSAR software component architecture used in the project.</em></p>
