@@ -39,7 +39,7 @@ The main goals of this project are to:
 The co-simulation environment consists of the following main components:
 
 <p align="center">
-  <img src="data/Screenshot 2026-03-28 062200.png" alt="System Architecture" width="500"/>
+  <img src="https://drive.google.com/uc?export=view&id=1YwJTj7rHoTLUCYsHLDZN634bmLp_Yz8r" alt="System Architecture" width="500"/>
 </p>
 <p align="center"><em>Figure 1: High-level architecture of the co-simulation environment.</em></p>
 
