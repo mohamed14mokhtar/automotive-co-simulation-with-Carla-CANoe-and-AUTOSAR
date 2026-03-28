@@ -113,3 +113,22 @@ This adapter is an important part of the integration because it enables the CANo
   <img src="https://drive.google.com/uc?export=view&id=1qKKlXkpdL_iwh-Q1uFtZKrMocPTnzXLk" alt="SIL Kit Adapter Connection Demo" width="850"/>
 </p>
 <p align="center"><em>Figure 5: GIF showing how CANoe is connected to SIL Kit using the SIL Kit Adapter.</em></p>
+
+## CAN Protocol
+
+Before discussing the communication flow in this project, it is useful to briefly introduce the **CAN frame**, which is the basic communication unit of the **Controller Area Network (CAN)** protocol.
+
+A CAN frame is used to exchange data between nodes in an automotive network. Each frame contains an **identifier** that defines the message meaning and priority, and a **data field** that carries the transmitted information. Additional fields provide length information, control, and error checking.
+
+A typical CAN frame includes:
+- **Identifier (ID)**
+- **Data Length Code (DLC)**
+- **Data field**
+- **Control and error-checking fields**
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=121WhHp4blmAip8JBDqjKKDRoX4j5O9oc" alt="CAN Frame Structure" width="850"/>
+</p>
+<p align="center"><em>Figure 6: General structure of a CAN frame.</em></p>
+
+In this project, CAN frames are used as the main communication mechanism between **Vector CANoe**, the **SIL Kit environment**, and the **C++ participant**.
